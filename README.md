@@ -34,3 +34,4 @@ go-strm is only useful with drivers. Here is a list of **some** drivers:
 
 * **HEAD** Return rows from the beginning of the data table stream. https://github.com/reiver/strm-head
 * **TAIL** Return rows from the end of the data table stream. https://github.com/reiver/strm-tail
+* **SKIP** Skips rows from the beginning of the data table stream, and returns everything after that. https://github.com/reiver/strm-skip
