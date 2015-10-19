@@ -33,5 +33,6 @@ func main() {
 go-strm is only useful with drivers. Here is a list of **some** drivers:
 
 * **HEAD** Return rows from the beginning of the data table stream. https://github.com/reiver/strm-head
-* **TAIL** Return rows from the end of the data table stream. https://github.com/reiver/strm-tail
+* **SELECT** Returns all rows but with only certain columns and in a certain order. https://github.com/reiver/strm-select
 * **SKIP** Skips rows from the beginning of the data table stream, and returns everything after that. https://github.com/reiver/strm-skip
+* **TAIL** Return rows from the end of the data table stream. https://github.com/reiver/strm-tail
