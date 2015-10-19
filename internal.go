@@ -48,13 +48,15 @@ func (strmer *internalStrmer) End(args ...interface{}) {
 	// Parse args.
 	driverName, subArgs, err := parseArgs(args)
 	if nil != err {
-                return newErrorStrmer(err)
+//@TODO: Is there a better way to deal with this error?
+                panic(err)
 	}
 
 	// Get driver.
 	endDriver, ok := strmdriver.GetEnder(driverName)
 	if !ok {
-		return newErrorStrmer(newMissingDriverNameComplainer())
+//@TODO: Is there a better way to deal with this error?
+		panic(newMissingDriverNameComplainer())
 	}
 
 	// Execute driver.
