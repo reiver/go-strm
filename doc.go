@@ -18,8 +18,8 @@ For example:
 	func main() {
 		Begin(CSV, "table.csv").
 			Strm(HEAD, 100).
-			Strm(SELECT, "color", "size")
-			Strm(APPEND, "blue",  5)
+			Strm(SELECT, "color", "size").
+			Strm(APPEND, "blue",  5).
 		End(STDOUT, "tsv")
 	}
 
