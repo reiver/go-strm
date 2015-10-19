@@ -24,4 +24,4 @@ func main() {
 }
 ```
 
-(Note that in that example a dot imports were used.)
+(Note that in that example dot imports were used.)
