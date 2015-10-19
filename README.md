@@ -10,6 +10,8 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 ## Example
 ```
+package main
+
 import (
 	. "github.com/reiver/go-strm"
 	. "github.com/reiver/strm-csv"
